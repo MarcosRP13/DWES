@@ -1,65 +1,60 @@
-<?php
-
-    mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+    <?php
 
     $host = "mariadb-server";
     $user = "root";
     $pass = "root";
     $db = "AP1";
 
-    try {
-        $mysqli = new mysqli ($host,$user,$pass,$db);
-        echo "Conexion con exito". "<br>";
-    }
-    catch (mysqli_sql_exception $e) {
-        die ($e->getMessage());
+    $mysqli = new mysqli ($host,$user,$pass,$db);
+
+    if ($mysqli->connect_error) {
+        echo "Fallo al conectar a MySQL: " . $mysqli->connect_error;
     }
 
-    try {
-        $sql = "SELECT * FROM usuarios";
-        $resultado = $mysqli->query($sql);
-        while ($fila = $resultado->fetch_assoc()) {
-            echo "ID: " . $fila["id"] . "<br>";
-            echo "Nombre: " . $fila["nombre"] . "<br>";
-            echo "Estado: " . $fila["estado"] . "<br>";
-        }
-    }
-    catch (mysqli_sql_exception $e) {
-        die ($e->getMessage());
+    // echo "Conectado a la base de datos";
+
+    $sql = "SELECT * FROM usuarios";
+    $resultado = $mysqli->query($sql);
+    while ($fila = $resultado->fetch_assoc()) {
+        echo "ID: " . $fila["id"] . "<br>";
+        echo "Nombre: " . $fila["nombre"] . "<br>";
+        echo "Estado: " . $fila["estado"] . "<br>";
     }
 
-    $nombre = "Sergio";
-    $estado = "0";
+    $nombre = "Aladin";
+    $estado = "0    ";
 
-    try {
-        $sql = "INSERT INTO usuarios (nombre, estado) VALUES ('$nombre', '$estado')";
-        $resultado = $mysqli->query($sql);
+    $sql = "INSERT INTO usuarios (nombre, estado) VALUES ('$nombre', '$estado')";
+
+    if (mysqli_query($mysqli, $sql)) {
+        echo "Se ha registrado correctamente el usuario";
     }
-    catch (mysqli_sql_exception $e) {
-        die ($e->getMessage());
+    else {
+        echo "Error al registrar: " . mysqli_error($mysqli);
     }
 
-    $id = 3 ;
+    $id = 115;
     $estado1 = "1";
 
-    try {
-        $sql = "UPDATE usuarios SET estado = '$estado1' WHERE id = '$id'";
-        $resultado = $mysqli->query($sql);
+    $sql = "UPDATE usuarios SET estado = '$estado1' WHERE id = '$id'";
+
+
+    if ($mysqli->query($sql) === TRUE) {
+        echo "Usuario actualizado con exito";
     }
-    catch (mysqli_sql_exception $e) {
-        die ($e->getMessage());
+    else {
+        echo "Error al actualizar: " . $mysqli->error;
     }
 
-    $id = 8;
+    $id = 5;
 
-    try {
-        $sql = "DELETE FROM usuarios WHERE id = $id";
-        $resultado = $mysqli->query($sql);
-    }
-    catch (mysqli_sql_exception $e) {
-        die ($e->getMessage());
-    }
+    $sql = "DELETE FROM usuarios WHERE id = $id";
 
-    $mysqli->close();
+    if ($mysqli->query($sql) === TRUE) {
+        echo "Usuario eliminado con exito";
+    }
+    else {
+        echo "Error al eliminar usuario: " . $mysqli->error;
+    }
 
     

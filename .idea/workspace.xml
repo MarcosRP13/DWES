@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88ae3405-9a0f-463a-bad2-71bf08c46a66" name="Changes" comment="AP2-1 terminado">
-      <change afterPath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP2-2/AP2-3/AP2-3.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP2-2/CocheElectricoF1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP2-2/CocheF1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP2-2/VehiculoCarrera.php" afterDir="false" />
+    <list default="true" id="88ae3405-9a0f-463a-bad2-71bf08c46a66" name="Changes" comment="AP2-3 terminado">
+      <change afterPath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-1/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-1/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-1/src/controllers/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-1/src/models/Model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-1/src/views/View.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/aria_log.00000001" beforeDir="false" afterPath="$PROJECT_DIR$/Docker DWES/.db_mysql/aria_log.00000001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/aria_log_control" beforeDir="false" afterPath="$PROJECT_DIR$/Docker DWES/.db_mysql/aria_log_control" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/Docker DWES/.db_mysql/ib_buffer_pool" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +47,9 @@
     &quot;accountId&quot;: &quot;06310864-4efc-4e97-8a8d-8fb6f6bb19c0&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-1/src/views/View.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -116,7 +117,9 @@
       <workItem from="1757580356698" duration="2794000" />
       <workItem from="1757607397184" duration="883000" />
       <workItem from="1757956633527" duration="3064000" />
-      <workItem from="1759160655258" duration="458000" />
+      <workItem from="1759160655258" duration="1092000" />
+      <workItem from="1759214374834" duration="796000" />
+      <workItem from="1759336578889" duration="2282000" />
     </task>
     <task id="LOCAL-00001" summary="AP1-1 finalizado">
       <option name="closed" value="true" />
@@ -166,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758734857750</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="AP2-3 terminado">
+      <option name="closed" value="true" />
+      <created>1759161140603</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1759161140603</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +201,7 @@
     <MESSAGE value="AP1-3 antes de añadir variable suma" />
     <MESSAGE value="AP1-4 finalizado" />
     <MESSAGE value="AP2-1 terminado" />
-    <option name="LAST_COMMIT_MESSAGE" value="AP2-1 terminado" />
+    <MESSAGE value="AP2-3 terminado" />
+    <option name="LAST_COMMIT_MESSAGE" value="AP2-3 terminado" />
   </component>
 </project>

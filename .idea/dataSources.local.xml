@@ -14,9 +14,16 @@
           <node kind="schema">
             <name qname="@" />
             <name qname="AP1" />
+            <name qname="todolist" />
           </node>
         </introspection-scope>
       </schema-mapping>
+    </data-source>
+    <data-source name="@localhost [2]" uuid="7e865f40-a678-4ffb-9676-7e78e49f2dc1">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MARIADB" />
+      <secret-storage>master_key</secret-storage>
+      <schema-mapping />
+      <load-sources>user_and_system_sources</load-sources>
     </data-source>
   </component>
 </project>

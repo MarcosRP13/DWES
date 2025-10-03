@@ -1,15 +1,13 @@
 <?php
 require_once __DIR__ . '/../models/Tarea.php';
 
-class TareasController {
-    private $model;
+class TareasController
+{
 
-    public function __construct() {
-        $this->model = new Tarea();
-    }
-
-    public function index() {
-        $tareas = $this->model->getAll();
-        require __DIR__ . '/../views/ListadoTareas.php';
+    public function index()
+    {
+        $tarea1 = new Tarea();
+        $tareas = $tarea1->showTareas();
+        require_once __DIR__ . '/../views/ListadoTareas.php';
     }
 }

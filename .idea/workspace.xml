@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88ae3405-9a0f-463a-bad2-71bf08c46a66" name="Changes" comment="AP3-2 por terminar">
-      <change afterPath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-2/src/views/ListadoTareas.php" afterDir="false" />
+    <list default="true" id="88ae3405-9a0f-463a-bad2-71bf08c46a66" name="Changes" comment="AP3-2 terminado">
+      <change afterPath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-2/public/assets/tareas.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-2/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-2/public/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-2/src/controllers/TareasController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-2/src/controllers/TareasController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-2/src/core/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-2/src/core/Database.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-2/src/models/Tarea.php" beforeDir="false" afterPath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-2/src/models/Tarea.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-2/src/views/ListadoTareas.php" beforeDir="false" afterPath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-2/src/views/ListadoTareas.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +20,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -48,6 +58,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -57,7 +68,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "actions.on.save",
+    "settings.editor.selected.configurable": "reference.settings.php.debug.xdebug.proxy",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -66,6 +77,11 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\marope01\PhpstormProjects\AP1-DWES\Docker DWES\Bloque_1\01-Refuerzo_PHP\Actividades\AP3\AP3-2\public\assets" />
+    </key>
+  </component>
   <component name="RunManager" selected="Database Script.AP1.sql and 4 more">
     <configuration name="AP1.sql and 4 more" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
       <script-file value="$PROJECT_DIR$/Docker DWES/.BBDD_archive/AP1.sql" />
@@ -113,7 +129,8 @@
       <workItem from="1758006988058" duration="4047000" />
       <workItem from="1758265349134" duration="1945000" />
       <workItem from="1758609929992" duration="3922000" />
-      <workItem from="1759473848335" duration="2297000" />
+      <workItem from="1759473848335" duration="5496000" />
+      <workItem from="1759745903298" duration="4757000" />
     </task>
     <task id="LOCAL-00001" summary="AP1-1 finalizado">
       <option name="closed" value="true" />
@@ -179,7 +196,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759403594322</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="AP3-2 terminado">
+      <option name="closed" value="true" />
+      <created>1759476256470</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1759476256470</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +229,7 @@
     <MESSAGE value="AP1-5 punto 2 acabado" />
     <MESSAGE value="AP1-5 finalizado" />
     <MESSAGE value="AP3-2 por terminar" />
-    <option name="LAST_COMMIT_MESSAGE" value="AP3-2 por terminar" />
+    <MESSAGE value="AP3-2 terminado" />
+    <option name="LAST_COMMIT_MESSAGE" value="AP3-2 terminado" />
   </component>
 </project>

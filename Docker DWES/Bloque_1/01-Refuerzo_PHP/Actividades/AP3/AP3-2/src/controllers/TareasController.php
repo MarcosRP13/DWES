@@ -1,13 +1,14 @@
 <?php
 require_once __DIR__ . '/../models/Tarea.php';
-
+require_once __DIR__ . "/../views/ListadoTareas.php";
 class TareasController
 {
 
-    public function index()
-    {
-        $tarea1 = new Tarea();
-        $tareas = $tarea1->showTareas();
-        require_once __DIR__ . '/../views/ListadoTareas.php';
+    public function showTareas() {
+        $tarea = new Tarea();
+        $tareas = $tarea->getData();
+        $vistaTareas = new ListadoTareas();
+        $vistaTareas->render();
+
     }
 }

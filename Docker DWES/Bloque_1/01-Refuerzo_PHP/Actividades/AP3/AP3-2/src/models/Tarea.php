@@ -1,19 +1,16 @@
 <?php
 
+require_once __DIR__ . "/../core/Database.php";
 class Tarea
 {
-
-    private $db;
-
     public function __construct()
     {
-        $this->db = Database::getInstance()->getConnection();
+
     }
 
-    public function showTareas()
+    public function getData()
     {
-        $query = "SELECT * FROM tareas";
-        $result = $this->db->query($query);
-        return $result->fetchAll(PDO::FETCH_ASSOC);
+        $conn = DatabaseConnection::getInstance();
+        $conn->executeSQL("SELECT * FROM tareas");
     }
 }

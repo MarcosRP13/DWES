@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88ae3405-9a0f-463a-bad2-71bf08c46a66" name="Changes" comment="AP3-2 terminado">
-      <change afterPath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-2/public/assets/tareas.html" afterDir="false" />
+    <list default="true" id="88ae3405-9a0f-463a-bad2-71bf08c46a66" name="Changes" comment="AP1-3 antes de añadir variable suma">
+      <change afterPath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-3/src/controllers/DetalleController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-3/src/controllers/MainController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-3/src/models/MainModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-3/src/views/DetalleViews.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-3/src/views/MainViews.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-2/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-2/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-2/src/controllers/TareasController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-2/src/controllers/TareasController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-2/src/core/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-2/src/core/Database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-2/src/models/Tarea.php" beforeDir="false" afterPath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-2/src/models/Tarea.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-2/src/views/ListadoTareas.php" beforeDir="false" afterPath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-2/src/views/ListadoTareas.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
+        <option value="PHP File" />
       </list>
     </option>
   </component>
@@ -42,12 +42,12 @@
     &quot;assignee&quot;: &quot;MarcosRP13&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/MarcosRP13/AP1-DWES.git&quot;,
-    &quot;accountId&quot;: &quot;2ae6ed89-67b1-4db7-b1ba-203cac12bc4c&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/MarcosRP13/AP1-DWES.git",
+    "accountId": "06310864-4efc-4e97-8a8d-8fb6f6bb19c0"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -58,62 +58,28 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settings.php.debug.xdebug.proxy",
+    "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
-  },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mariadb"
-    ]
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\marope01\PhpstormProjects\AP1-DWES\Docker DWES\Bloque_1\01-Refuerzo_PHP\Actividades\AP3\AP3-2\public\assets" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Database Script.AP1.sql and 4 more">
-    <configuration name="AP1.sql and 4 more" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
-      <script-file value="$PROJECT_DIR$/Docker DWES/.BBDD_archive/AP1.sql" />
-      <script-file value="$PROJECT_DIR$/Docker DWES/.BBDD_archive/Ap5.sql" />
-      <script-file value="$PROJECT_DIR$/Docker DWES/.BBDD_archive/empresa.sql" />
-      <script-file value="$PROJECT_DIR$/Docker DWES/.BBDD_archive/todolist.sql" />
-      <script-file value="$PROJECT_DIR$/Docker DWES/.BBDD_archive/login_demo.sql" />
-      <script-mode>FILE</script-mode>
-      <method v="2" />
-    </configuration>
-    <configuration name="AP1.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
-      <script-file value="$PROJECT_DIR$/Docker DWES/.BBDD_archive/AP1.sql" />
-      <script-mode>FILE</script-mode>
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Database Script.AP1.sql and 4 more" />
-        <item itemvalue="Database Script.AP1.sql" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-PS-251.23774.466" />
-        <option value="bundled-php-predefined-a98d8de5180a-aaeaa8632555-com.jetbrains.php.sharedIndexes-PS-251.23774.466" />
+        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-PS-252.25557.128" />
+        <option value="bundled-php-predefined-a98d8de5180a-ce40d0652d34-com.jetbrains.php.sharedIndexes-PS-252.25557.128" />
       </set>
     </attachedChunks>
-  </component>
-  <component name="StructureViewState">
-    <option name="selectedTab" value="PHP" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -124,13 +90,7 @@
       <updated>1757579006786</updated>
       <workItem from="1757579008228" duration="1196000" />
       <workItem from="1757580356698" duration="2794000" />
-      <workItem from="1757661199838" duration="3428000" />
-      <workItem from="1757931223677" duration="4815000" />
-      <workItem from="1758006988058" duration="4047000" />
-      <workItem from="1758265349134" duration="1945000" />
-      <workItem from="1758609929992" duration="3922000" />
-      <workItem from="1759473848335" duration="5496000" />
-      <workItem from="1759745903298" duration="4757000" />
+      <workItem from="1760373525518" duration="6172000" />
     </task>
     <task id="LOCAL-00001" summary="AP1-1 finalizado">
       <option name="closed" value="true" />
@@ -164,47 +124,7 @@
       <option name="project" value="LOCAL" />
       <updated>1757584291721</updated>
     </task>
-    <task id="LOCAL-00005" summary="AP1-3 antes de añadir variable suma">
-      <option name="closed" value="true" />
-      <created>1757661356156</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1757661356156</updated>
-    </task>
-    <task id="LOCAL-00006" summary="AP1-5 punto 2 acabado">
-      <option name="closed" value="true" />
-      <created>1757936486483</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1757936486483</updated>
-    </task>
-    <task id="LOCAL-00007" summary="AP1-5 finalizado">
-      <option name="closed" value="true" />
-      <created>1758007028636</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1758007028636</updated>
-    </task>
-    <task id="LOCAL-00008" summary="AP3-2 por terminar">
-      <option name="closed" value="true" />
-      <created>1759403594322</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1759403594322</updated>
-    </task>
-    <task id="LOCAL-00009" summary="AP3-2 terminado">
-      <option name="closed" value="true" />
-      <created>1759476256470</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1759476256470</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,10 +146,6 @@
     <MESSAGE value="AP1-1, 2 finalizado" />
     <MESSAGE value="AP1-2 corregido y mejorado" />
     <MESSAGE value="AP1-3 antes de añadir variable suma" />
-    <MESSAGE value="AP1-5 punto 2 acabado" />
-    <MESSAGE value="AP1-5 finalizado" />
-    <MESSAGE value="AP3-2 por terminar" />
-    <MESSAGE value="AP3-2 terminado" />
-    <option name="LAST_COMMIT_MESSAGE" value="AP3-2 terminado" />
+    <option name="LAST_COMMIT_MESSAGE" value="AP1-3 antes de añadir variable suma" />
   </component>
 </project>

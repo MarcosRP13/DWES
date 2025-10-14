@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88ae3405-9a0f-463a-bad2-71bf08c46a66" name="Changes" comment="AP3-2 terminado">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="88ae3405-9a0f-463a-bad2-71bf08c46a66" name="Changes" comment="AP3-3 completo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -199,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759476256470</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="AP3-3 completo">
+      <option name="closed" value="true" />
+      <created>1760424674586</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1760424674586</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,7 +231,9 @@
     <MESSAGE value="AP1-5 punto 2 acabado" />
     <MESSAGE value="AP1-5 finalizado" />
     <MESSAGE value="AP3-2 por terminar" />
+    <MESSAGE value="AP3-3 acabado" />
     <MESSAGE value="AP3-2 terminado" />
-    <option name="LAST_COMMIT_MESSAGE" value="AP3-2 terminado" />
+    <MESSAGE value="AP3-3 completo" />
+    <option name="LAST_COMMIT_MESSAGE" value="AP3-3 completo" />
   </component>
 </project>

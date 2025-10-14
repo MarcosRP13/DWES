@@ -1,0 +1,14 @@
+{
+    "name": "my/ap34",
+    "autoload": {
+        "psr-4": {
+            "AP34\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marquitos"
+        }
+    ],
+    "require": {}
+}

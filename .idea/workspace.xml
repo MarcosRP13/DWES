@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88ae3405-9a0f-463a-bad2-71bf08c46a66" name="Changes" comment="AP3-4 mitad ejercicio">
-      <change afterPath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP41/src/Entity/Task.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP41/src/Repository/RepositoryTareas.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_10_2025_8_33_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_10_2025_8_33__Changes_.xml" beforeDir="false" />
+    <list default="true" id="88ae3405-9a0f-463a-bad2-71bf08c46a66" name="Changes" comment="AP41- medio hecho">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,28 +50,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "php.add.doc.comment.for.fields.panel.add.php.doc.for.all.properties": "true",
-    "settings.editor.selected.configurable": "reference.settings.php.debug.xdebug.proxy",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;php.add.doc.comment.for.fields.panel.add.php.doc.for.all.properties&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.php.debug.xdebug.proxy&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mariadb"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mariadb&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\marope01\PhpstormProjects\AP1-DWES\Docker DWES\Bloque_1\01-Refuerzo_PHP\Actividades\AP3\AP3-2\public\assets" />
@@ -132,7 +128,7 @@
       <workItem from="1759745903298" duration="4757000" />
       <workItem from="1760682638899" duration="3391000" />
       <workItem from="1761031418478" duration="413000" />
-      <workItem from="1761031860886" duration="1764000" />
+      <workItem from="1761031860886" duration="2701000" />
     </task>
     <task id="LOCAL-00001" summary="AP1-1 finalizado">
       <option name="closed" value="true" />
@@ -222,7 +218,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760426282164</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="AP41- medio hecho">
+      <option name="closed" value="true" />
+      <created>1761034017029</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1761034017029</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,6 +255,7 @@
     <MESSAGE value="AP3-2 terminado" />
     <MESSAGE value="AP3-3 completo" />
     <MESSAGE value="AP3-4 mitad ejercicio" />
-    <option name="LAST_COMMIT_MESSAGE" value="AP3-4 mitad ejercicio" />
+    <MESSAGE value="AP41- medio hecho" />
+    <option name="LAST_COMMIT_MESSAGE" value="AP41- medio hecho" />
   </component>
 </project>

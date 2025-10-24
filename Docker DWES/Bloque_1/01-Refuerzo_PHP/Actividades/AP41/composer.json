@@ -1,0 +1,9 @@
+{
+    "name": "root/ap41",
+    "autoload": {
+        "psr-4": {
+            "Root\\Ap41\\": "src/"
+        }
+    },
+    "require": {}
+}

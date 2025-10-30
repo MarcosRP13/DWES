@@ -1,11 +1,11 @@
 <?php
 
 namespace AP42\Controllers;
-use AP41\Core\EntityManager;
-use AP41\Entity\Tareas;
-use AP41\Views\DetalleTarea;
-use AP41\Views\ListadoTareas;
-use AP41\Views\FormularioView;
+use AP42\Core\EntityManager;
+use AP42\Entity\Tareas;
+use AP42\Views\DetalleTarea;
+use AP42\Views\ListadoTareas;
+use AP42\Views\FormularioView;
 /**
  * Controlador para la ruta /detalle
  */

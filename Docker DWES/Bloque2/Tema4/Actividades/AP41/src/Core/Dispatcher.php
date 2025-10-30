@@ -1,11 +1,11 @@
 <?php
 
-namespace AP42\Core;
+namespace AP41\Core;
 
 
-use AP42\Controllers\MainController;
-use AP42\Core\Interfaces\IRequest;
-use AP42\Core\Interfaces\IRoute;
+use AP41\Controllers\MainController;
+use AP41\Core\Interfaces\IRequest;
+use AP41\Core\Interfaces\IRoute;
 
 class Dispatcher
 {
@@ -32,9 +32,9 @@ class Dispatcher
     {
         //Verificamos que la ruta que hemos recibido está dentro de las rutás de la aplicación
         if (isset($this->routeList[$this->currentRequest->getRoute()])) {
-            //Aqui dentro tenetemos un texto del tipo AP42\Controller\DetalleController
-            $controllerClass = "AP42\\Controllers\\" . $this->routeList[$this->currentRequest->getRoute()]["controller"];
-            //Es equivalente a $controller = new AP42\Controller\MainController o DetalleController;
+            //Aqui dentro tenetemos un texto del tipo AP41\Controller\DetalleController
+            $controllerClass = "AP41\\Controllers\\" . $this->routeList[$this->currentRequest->getRoute()]["controller"];
+            //Es equivalente a $controller = new AP41\Controller\MainController o DetalleController;
             $controller = new $controllerClass;
             //Es equivalente al texto main o detail
             $action = $this->routeList[$this->currentRequest->getRoute()]["action"];

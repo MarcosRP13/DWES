@@ -4,9 +4,9 @@ require_once "../vendor/autoload.php";
 
 //Cuando se hace una llamada a los namespaces puede ser de forma individual o agrupando varios dentro de llaves, siempre
 // y cuando la ruta sea compatible.
-use AP42\Core\Dispatcher;
-use AP42\Core\Request;
-use AP42\Core\RouteCollection;
+use AP41\Core\Dispatcher;
+use AP41\Core\Request;
+use AP41\Core\RouteCollection;
 use Dotenv\Dotenv;
 
 //Lo primero que debemos hacer es cargar las variables de entorno con el DotEnv del archivo .env

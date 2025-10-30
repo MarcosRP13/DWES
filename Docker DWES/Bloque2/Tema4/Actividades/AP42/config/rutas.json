@@ -1,0 +1,10 @@
+{
+  "/": {
+    "controller": "OperationsController",
+    "action": "list"
+  },
+  "/detalle": {
+    "controller": "OperationsController",
+    "action": "detail"
+  }
+}

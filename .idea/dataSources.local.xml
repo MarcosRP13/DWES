@@ -12,9 +12,9 @@
       <schema-mapping>
         <introspection-scope>
           <node kind="schema">
+            <name qname="AP1" />
             <name qname="todolist" />
             <name qname="@" />
-            <name qname="AP1" />
           </node>
         </introspection-scope>
       </schema-mapping>

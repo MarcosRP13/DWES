@@ -10,18 +10,15 @@
 <body>
 <table border="1">
     <tr>
-        <td>Título</td>
-        <td>Descripción</td>
-        <td>Fecha de Creación</td>
-        <td>Fecha de Vencimiento</td>
+        <td>Id Operacion</td>
+        <td>Resultado</td>
+        <td>Nombre Usuario</td>
     </tr>
-    <?php foreach ($tareas as $tarea){ ?>
+    <?php foreach ($operations as $operation){ ?>
     <tr>
-        <td>
-        </td>
-        <td><?php echo htmlspecialchars($operations->getId()) ?></td>
-        <td><?php echo $operations->getResultado() ?></td>
-        <td><?php echo $operations->getUsuarios() ?></td>
+        <td><?php echo htmlspecialchars($operation->getId()) ?></td>
+        <td><?php echo htmlspecialchars($operation->getResultado()) ?></td>
+        <td><?php echo htmlspecialchars($operation->getUsuarios()->getNombre()) ?></td>
     </tr>
     <?php } ?>
 </table>

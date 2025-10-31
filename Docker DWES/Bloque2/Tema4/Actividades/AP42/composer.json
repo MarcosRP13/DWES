@@ -1,5 +1,10 @@
 {
     "name": "root/ap42",
+    "autoload": {
+        "psr-4": {
+            "AP42\\": "src/"
+        }
+    },
     "require": {
         "doctrine/orm": "^3",
         "doctrine/dbal": "^4",

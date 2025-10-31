@@ -3,6 +3,7 @@
 namespace AP42\Entity;
 
 use AP42\repository\usersRepository;
+use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping\Column;
 use Doctrine\ORM\Mapping\Entity;
@@ -23,8 +24,18 @@ class users
     #[column (name: 'nombre', type: 'string', length: "30")]
     private string $nombre;
 
-    #[OneToMany (mappedBy: "usuarios", targetEntity: operations::class, cascade: ["persist", "remove"])]
-    private ?Collection $operations;
+    #[column (name: 'estado', type: 'boolean')]
+    private bool $estado;
+    #[OneToMany (mappedBy: "users", targetEntity: operations::class, cascade: ["persist", "remove"])]
+    private Collection $operations;
+
+    /**
+     * @param Collection|null $operations
+     */
+    public function __construct()
+    {
+        $this->operations = new ArrayCollection();
+    }
 
     public function getId(): int
     {
@@ -49,6 +60,16 @@ class users
     public function setOperations(Collection $operations): void
     {
         $this->operations = $operations;
+    }
+
+    public function isEstado(): bool
+    {
+        return $this->estado;
+    }
+
+    public function setEstado(bool $estado): void
+    {
+        $this->estado = $estado;
     }
 
 

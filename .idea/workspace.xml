@@ -4,8 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88ae3405-9a0f-463a-bad2-71bf08c46a66" name="Changes" comment="AP42 seguimos trabajando">
+    <list default="true" id="88ae3405-9a0f-463a-bad2-71bf08c46a66" name="Changes" comment="AP42 seguimos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/config/rutas.json" beforeDir="false" afterPath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/config/rutas.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/public/assets/detalle.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/public/assets/detalle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/public/assets/tareas.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/public/assets/tareas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/src/Controllers/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/src/Controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/src/Controllers/OperationsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/src/Controllers/OperationsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/src/Core/Interfaces/IRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/src/Core/Interfaces/IRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/src/Core/Interfaces/IRoute.php" beforeDir="false" afterPath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/src/Core/Interfaces/IRoute.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/src/Entity/operations.php" beforeDir="false" afterPath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/src/Entity/operations.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/src/Entity/users.php" beforeDir="false" afterPath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/src/Entity/users.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/src/Views/UserView.php" beforeDir="false" afterPath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/src/Views/UserView.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -244,7 +255,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761901699987</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="AP42 seguimos">
+      <option name="closed" value="true" />
+      <created>1761902519846</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1761902519846</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,6 +295,7 @@
     <MESSAGE value="AP41- medio hecho" />
     <MESSAGE value="AP41- hecho" />
     <MESSAGE value="AP42 seguimos trabajando" />
-    <option name="LAST_COMMIT_MESSAGE" value="AP42 seguimos trabajando" />
+    <MESSAGE value="AP42 seguimos" />
+    <option name="LAST_COMMIT_MESSAGE" value="AP42 seguimos" />
   </component>
 </project>

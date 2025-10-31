@@ -25,8 +25,8 @@ class operations
     private string $resultado;
 
     #[ManyToOne (targetEntity: users::class, inversedBy: 'operations')]
-    #[JoinColumn(name: "usurio", referencedColumnName: "id", nullable: false, onDelete: "CASCADE")]
-    private Users $users;
+    #[JoinColumn(name: "usuario", referencedColumnName: "id", nullable: false, onDelete: "CASCADE")]
+    private ?Users $users = null;
 
     public function getId(): int
     {
@@ -43,14 +43,14 @@ class operations
         $this->resultado = $resultado;
     }
 
-    public function getUsuarios(): Collection
+    public function getUsuarios(): ?Users
     {
-        return $this->usuarios;
+        return $this->users;
     }
 
-    public function setUsuarios(Collection $usuarios): void
+    public function setUsuarios(?Users $users): void
     {
-        $this->usuarios = $usuarios;
+        $this->users = $users;
     }
 
 

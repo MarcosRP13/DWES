@@ -19,4 +19,10 @@ class operationsController
         $views = new operationsView();
         $views->render($operations);
     }
+
+    public function home(){
+        echo "<h1>Inicio</h1><br>";
+        echo "<a href='/operaciones'> operaciones </a> <br><br>";
+        echo "<a href='/usuarios'> usuarios </a> <br><br>";
+    }
 }

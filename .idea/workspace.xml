@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88ae3405-9a0f-463a-bad2-71bf08c46a66" name="Changes" comment="AP41- hecho">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="88ae3405-9a0f-463a-bad2-71bf08c46a66" name="Changes" comment="AP42 seguimos trabajando">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/src/Controllers/OperationsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/src/Controllers/OperationsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/src/Entity/operations.php" beforeDir="false" afterPath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/src/Entity/operations.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/src/Entity/users.php" beforeDir="false" afterPath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/src/Entity/users.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/src/Views/DetalleTarea.php" beforeDir="false" afterPath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/src/Views/OperationsView.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/src/Views/ListadoTareas.php" beforeDir="false" afterPath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/src/Views/UserView.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/src/repository/operationsRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/src/repository/OperationsRepository.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -243,7 +236,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761289399294</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="AP42 seguimos trabajando">
+      <option name="closed" value="true" />
+      <created>1761901699987</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1761901699987</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,6 +275,7 @@
     <MESSAGE value="AP3-4 mitad ejercicio" />
     <MESSAGE value="AP41- medio hecho" />
     <MESSAGE value="AP41- hecho" />
-    <option name="LAST_COMMIT_MESSAGE" value="AP41- hecho" />
+    <MESSAGE value="AP42 seguimos trabajando" />
+    <option name="LAST_COMMIT_MESSAGE" value="AP42 seguimos trabajando" />
   </component>
 </project>

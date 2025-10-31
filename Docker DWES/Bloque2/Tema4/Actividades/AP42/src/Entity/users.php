@@ -2,6 +2,8 @@
 
 namespace AP42\Entity;
 
+use AP42\repository\usersRepository;
+use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping\Column;
 use Doctrine\ORM\Mapping\Entity;
 use Doctrine\ORM\Mapping\GeneratedValue;
@@ -22,7 +24,7 @@ class users
     private string $nombre;
 
     #[OneToMany (mappedBy: "usuarios", targetEntity: operations::class, cascade: ["persist", "remove"])]
-    private Collection $operations;
+    private ?Collection $operations;
 
     public function getId(): int
     {

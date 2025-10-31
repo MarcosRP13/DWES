@@ -26,7 +26,7 @@ class operations
 
     #[ManyToOne (targetEntity: users::class, inversedBy: 'operations')]
     #[JoinColumn(name: "usurio", referencedColumnName: "id", nullable: false, onDelete: "CASCADE")]
-    private ?Users $usuarios = null;
+    private Users $users;
 
     public function getId(): int
     {

@@ -1,44 +1,413 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="88ae3405-9a0f-463a-bad2-71bf08c46a66" name="Changes" comment="AP42 seguimos">
+    <list default="true" id="7adbfd1c-4e2d-48b7-a48e-2fab3524027e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/config/rutas.json" beforeDir="false" afterPath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/config/rutas.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/public/assets/detalle.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/public/assets/detalle.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/public/assets/tareas.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/public/assets/tareas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/src/Controllers/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/src/Controllers/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/src/Controllers/OperationsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/src/Controllers/OperationsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/src/Core/Interfaces/IRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/src/Core/Interfaces/IRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/src/Core/Interfaces/IRoute.php" beforeDir="false" afterPath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/src/Core/Interfaces/IRoute.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/src/Entity/operations.php" beforeDir="false" afterPath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/src/Entity/operations.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/src/Entity/users.php" beforeDir="false" afterPath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/src/Entity/users.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/src/Views/UserView.php" beforeDir="false" afterPath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/src/Views/UserView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.BBDD_archive/AP1.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.BBDD_archive/Ap5.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.BBDD_archive/empresa.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.BBDD_archive/login_demo.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.BBDD_archive/todolist.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/.my-healthcheck.cnf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/AP1/db.opt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/AP1/operaciones.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/AP1/operaciones.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/AP1/usuarios.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/AP1/usuarios.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/aria_log.00000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/aria_log_control" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/ddl_recovery-backup.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/ib_buffer_pool" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/ib_logfile0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/ibdata1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mariadb_upgrade_info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/multi-master.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/column_stats.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/column_stats.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/column_stats.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/columns_priv.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/columns_priv.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/columns_priv.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/db.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/db.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/db.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/db.opt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/event.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/event.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/event.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/func.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/func.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/func.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/general_log.CSM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/general_log.CSV" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/general_log.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/global_priv.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/global_priv.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/global_priv.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/gtid_slave_pos.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/gtid_slave_pos.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/help_category.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/help_category.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/help_category.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/help_keyword.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/help_keyword.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/help_keyword.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/help_relation.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/help_relation.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/help_relation.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/help_topic.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/help_topic.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/help_topic.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/index_stats.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/index_stats.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/index_stats.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/innodb_index_stats.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/innodb_index_stats.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/innodb_table_stats.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/innodb_table_stats.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/plugin.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/plugin.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/plugin.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/proc.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/proc.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/proc.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/procs_priv.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/procs_priv.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/procs_priv.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/proxies_priv.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/proxies_priv.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/proxies_priv.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/roles_mapping.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/roles_mapping.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/roles_mapping.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/servers.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/servers.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/servers.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/slow_log.CSM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/slow_log.CSV" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/slow_log.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/table_stats.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/table_stats.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/table_stats.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/tables_priv.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/tables_priv.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/tables_priv.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/time_zone.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/time_zone.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/time_zone.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/time_zone_leap_second.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/time_zone_leap_second.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/time_zone_leap_second.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/time_zone_name.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/time_zone_name.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/time_zone_name.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/time_zone_transition.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/time_zone_transition.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/time_zone_transition.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/time_zone_transition_type.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/time_zone_transition_type.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/time_zone_transition_type.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/transaction_registry.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/transaction_registry.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/mysql/user.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/performance_schema/db.opt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/db.opt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/host_summary.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/host_summary_by_file_io.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/host_summary_by_file_io_type.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/host_summary_by_stages.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/host_summary_by_statement_latency.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/host_summary_by_statement_type.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/innodb_buffer_stats_by_schema.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/innodb_buffer_stats_by_table.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/innodb_lock_waits.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/io_by_thread_by_latency.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/io_global_by_file_by_bytes.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/io_global_by_file_by_latency.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/io_global_by_wait_by_bytes.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/io_global_by_wait_by_latency.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/latest_file_io.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/memory_by_host_by_current_bytes.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/memory_by_thread_by_current_bytes.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/memory_by_user_by_current_bytes.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/memory_global_by_current_bytes.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/memory_global_total.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/metrics.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/privileges_by_table_by_level.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/processlist.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/ps_check_lost_instrumentation.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/schema_auto_increment_columns.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/schema_index_statistics.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/schema_object_overview.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/schema_redundant_indexes.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/schema_table_lock_waits.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/schema_table_statistics.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/schema_table_statistics_with_buffer.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/schema_tables_with_full_table_scans.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/schema_unused_indexes.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/session.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/session_ssl_status.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/statement_analysis.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/statements_with_errors_or_warnings.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/statements_with_full_table_scans.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/statements_with_runtimes_in_95th_percentile.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/statements_with_sorting.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/statements_with_temp_tables.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/sys_config.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/sys_config.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/sys_config.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/user_summary.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/user_summary_by_file_io.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/user_summary_by_file_io_type.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/user_summary_by_stages.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/user_summary_by_statement_latency.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/user_summary_by_statement_type.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/version.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/wait_classes_global_by_avg_latency.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/wait_classes_global_by_latency.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/waits_by_host_by_latency.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/waits_by_user_by_latency.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/waits_global_by_latency.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/x@0024host_summary.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/x@0024host_summary_by_file_io.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/x@0024host_summary_by_file_io_type.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/x@0024host_summary_by_stages.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/x@0024host_summary_by_statement_latency.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/x@0024host_summary_by_statement_type.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/x@0024innodb_buffer_stats_by_schema.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/x@0024innodb_buffer_stats_by_table.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/x@0024innodb_lock_waits.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/x@0024io_by_thread_by_latency.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/x@0024io_global_by_file_by_bytes.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/x@0024io_global_by_file_by_latency.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/x@0024io_global_by_wait_by_bytes.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/x@0024io_global_by_wait_by_latency.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/x@0024latest_file_io.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/x@0024memory_by_host_by_current_bytes.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/x@0024memory_by_thread_by_current_bytes.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/x@0024memory_by_user_by_current_bytes.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/x@0024memory_global_by_current_bytes.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/x@0024memory_global_total.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/x@0024processlist.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/x@0024ps_digest_95th_percentile_by_avg_us.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/x@0024ps_digest_avg_latency_distribution.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/x@0024ps_schema_table_statistics_io.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/x@0024schema_flattened_keys.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/x@0024schema_index_statistics.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/x@0024schema_table_lock_waits.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/x@0024schema_table_statistics.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/x@0024schema_table_statistics_with_buffer.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/x@0024schema_tables_with_full_table_scans.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/x@0024session.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/x@0024statement_analysis.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/x@0024statements_with_errors_or_warnings.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/x@0024statements_with_full_table_scans.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/x@0024statements_with_runtimes_in_95th_percentile.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/x@0024statements_with_sorting.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/x@0024statements_with_temp_tables.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/x@0024user_summary.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/x@0024user_summary_by_file_io.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/x@0024user_summary_by_file_io_type.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/x@0024user_summary_by_stages.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/x@0024user_summary_by_statement_latency.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/x@0024user_summary_by_statement_type.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/x@0024wait_classes_global_by_avg_latency.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/x@0024wait_classes_global_by_latency.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/x@0024waits_by_host_by_latency.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/x@0024waits_by_user_by_latency.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/sys/x@0024waits_global_by_latency.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/undo001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/undo002" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.db_mysql/undo003" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.docker/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.docker/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.idea/Docker DWES.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP41/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP41/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP41/.idea/AP4-1-base-alumnos.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP41/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP41/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP41/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP41/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP41/config/rutas.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP41/public/assets/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP41/public/assets/detalle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP41/public/assets/tareas.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP41/public/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP41/src/Controllers/MainController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP41/src/Controllers/TareasController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP41/src/Core/Dispatcher.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP41/src/Core/EntityManager.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP41/src/Core/Interfaces/IRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP41/src/Core/Interfaces/IRoute.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP41/src/Core/Request.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP41/src/Core/RouteCollection.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP41/src/Entity/task.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP41/src/Views/DetalleTarea.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP41/src/Views/ListadoTareas.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP41/src/Views/MainView.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP41/src/repository/TaskRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/config/rutas.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/public/assets/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/public/assets/detalle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/public/assets/tareas.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/public/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/src/Controllers/OperationsController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/src/Controllers/UserController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/src/Core/Dispatcher.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/src/Core/EntityManager.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/src/Core/Interfaces/IRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/src/Core/Interfaces/IRoute.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/src/Core/Request.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/src/Core/RouteCollection.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/src/Entity/operations.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/src/Entity/users.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/src/Views/MainView.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/src/Views/OperationsView.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/src/Views/UserView.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/src/repository/OperationsRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque2/Tema4/Actividades/AP42/src/repository/usersRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP1-1/AP1-1.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP1-1/AP1-2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP1-1/AP1-3.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP1-1/AP1-4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP1-1/AP1-5.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP1-1/AP1-6/AP1-6.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP2-1/CocheElectricoF1.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP2-1/CocheF1.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP2-1/VehiculoCarrera.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP2-1/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP2-2/AP2-3/AP2-3.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP2-2/CocheElectricoF1.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP2-2/CocheF1.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP2-2/VehiculoCarrera.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP2-3/AP2-3 Ejemplo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP2-3/AP2-3.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-1/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-1/public/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-1/src/controllers/Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-1/src/models/Model.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-1/src/views/View.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-2/config/dbConfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-2/public/assets/tareas.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-2/public/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-2/src/controllers/TareasController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-2/src/core/Database.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-2/src/models/Tarea.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-2/src/views/ListadoTareas.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-3/config/dbConfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-3/config/rutas.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-3/public/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-3/src/autoload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-3/src/core/DataBase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-3/src/core/Dispatcher.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-3/src/core/Request.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-3/src/core/RouteCollection.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-4/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-4/config/dbConfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-4/config/rutas.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-4/public/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-4/src/autoload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-4/src/controllers/DetalleController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-4/src/controllers/MainController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-4/src/core/DataBase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-4/src/core/Dispatcher.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-4/src/core/Request.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-4/src/core/RouteCollection.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-4/src/models/MainModel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-4/src/views/DetalleViews.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-4/src/views/MainViews.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-4/vendor/autoload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-4/vendor/composer/ClassLoader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-4/vendor/composer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-4/vendor/composer/autoload_classmap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-4/vendor/composer/autoload_namespaces.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-4/vendor/composer/autoload_psr4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-4/vendor/composer/autoload_real.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP3/AP3-4/vendor/composer/autoload_static.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP41/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP41/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP41/config/rutas.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP41/public/assets/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP41/public/assets/detalle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP41/public/assets/tareas.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP41/public/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP41/src/Controllers/MainController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP41/src/Controllers/TareasController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP41/src/Core/Dispatcher.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP41/src/Core/EntityManager.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP41/src/Core/Interfaces/IRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP41/src/Core/Interfaces/IRoute.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP41/src/Core/Request.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP41/src/Core/RouteCollection.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP41/src/Entity/Task.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP41/src/Repository/RepositoryTareas.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP41/src/Views/DetalleTarea.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP41/src/Views/ListadoTareas.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP41/src/Views/MainView.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP41/vendor/autoload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP41/vendor/composer/ClassLoader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP41/vendor/composer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP41/vendor/composer/autoload_classmap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP41/vendor/composer/autoload_namespaces.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP41/vendor/composer/autoload_psr4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP41/vendor/composer/autoload_real.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP41/vendor/composer/autoload_static.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP42/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP42/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP42/config/rutas.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP42/public/assets/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP42/public/assets/detalle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP42/public/assets/tareas.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP42/public/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP42/src/Controllers/MainController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP42/src/Controllers/TareasController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP42/src/Core/Dispatcher.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP42/src/Core/EntityManager.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP42/src/Core/Interfaces/IRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP42/src/Core/Interfaces/IRoute.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP42/src/Core/Request.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP42/src/Core/RouteCollection.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP42/src/Entity/Task.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP42/src/Repository/RepositoryTareas.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP42/src/Views/DetalleTarea.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP42/src/Views/ListadoTareas.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP42/src/Views/MainView.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP42/vendor/autoload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP42/vendor/composer/ClassLoader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP42/vendor/composer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP42/vendor/composer/autoload_classmap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP42/vendor/composer/autoload_namespaces.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP42/vendor/composer/autoload_psr4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP42/vendor/composer/autoload_real.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker DWES/Bloque_1/01-Refuerzo_PHP/Actividades/AP42/vendor/composer/autoload_static.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="repository" />
+    </option>
+  </component>
   <component name="ComposerSettings">
     <execution />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="PREVIOUS_COMMIT_AUTHORS">
-      <list>
-        <option value="Marcos &lt;marcosrodriguez@gmail.com&gt;" />
-      </list>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -49,64 +418,51 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/MarcosRP13/AP1-DWES.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/MarcosRP13/DWES.git&quot;,
     &quot;accountId&quot;: &quot;2ae6ed89-67b1-4db7-b1ba-203cac12bc4c&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 7
+  &quot;associatedIndex&quot;: 8
 }</component>
-  <component name="ProjectId" id="32XtzPMb3nA798fOWPakwqf0Gtw" />
+  <component name="ProjectId" id="32aaQYpoKn6QL1fo9Yz0bOwrCEP" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;php.add.doc.comment.for.fields.panel.add.php.doc.for.all.properties&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.php.debug.xdebug.proxy&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-  },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mariadb&quot;
-    ]
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Docker..docker: Compose Deployment.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/marope01/Desktop/DAWES/Docker DWES",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\marope01\PhpstormProjects\AP1-DWES\Docker DWES\Bloque_1\01-Refuerzo_PHP\Actividades\AP3\AP3-2\public\assets" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Database Script.AP1.sql and 4 more">
-    <configuration name="AP1.sql and 4 more" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
-      <script-file value="$PROJECT_DIR$/Docker DWES/.BBDD_archive/AP1.sql" />
-      <script-file value="$PROJECT_DIR$/Docker DWES/.BBDD_archive/Ap5.sql" />
-      <script-file value="$PROJECT_DIR$/Docker DWES/.BBDD_archive/empresa.sql" />
-      <script-file value="$PROJECT_DIR$/Docker DWES/.BBDD_archive/todolist.sql" />
-      <script-file value="$PROJECT_DIR$/Docker DWES/.BBDD_archive/login_demo.sql" />
-      <script-mode>FILE</script-mode>
+}]]></component>
+  <component name="RunManager">
+    <configuration name=".docker: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value=".docker/docker-compose.yml" />
+        </settings>
+      </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="AP1.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
-      <script-file value="$PROJECT_DIR$/Docker DWES/.BBDD_archive/AP1.sql" />
-      <script-mode>FILE</script-mode>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Database Script.AP1.sql and 4 more" />
-        <item itemvalue="Database Script.AP1.sql" />
+        <item itemvalue="Docker..docker: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>
@@ -118,184 +474,19 @@
       </set>
     </attachedChunks>
   </component>
-  <component name="StructureViewState">
-    <option name="selectedTab" value="PHP" />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="88ae3405-9a0f-463a-bad2-71bf08c46a66" name="Changes" comment="" />
-      <created>1757579006786</created>
+      <changelist id="7adbfd1c-4e2d-48b7-a48e-2fab3524027e" name="Changes" comment="" />
+      <created>1757661122242</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1757579006786</updated>
-      <workItem from="1757579008228" duration="1196000" />
-      <workItem from="1757580356698" duration="2794000" />
-      <workItem from="1757661199838" duration="3428000" />
-      <workItem from="1757931223677" duration="4815000" />
-      <workItem from="1758006988058" duration="4047000" />
-      <workItem from="1758265349134" duration="1945000" />
-      <workItem from="1758609929992" duration="3922000" />
-      <workItem from="1759473848335" duration="5496000" />
-      <workItem from="1759745903298" duration="4757000" />
-      <workItem from="1760682638899" duration="3391000" />
-      <workItem from="1761031418478" duration="413000" />
-      <workItem from="1761031860886" duration="2701000" />
-      <workItem from="1761289078075" duration="2193000" />
-      <workItem from="1761637156238" duration="341000" />
+      <updated>1757661122242</updated>
+      <workItem from="1757661123606" duration="73000" />
+      <workItem from="1762245844113" duration="53000" />
     </task>
-    <task id="LOCAL-00001" summary="AP1-1 finalizado">
-      <option name="closed" value="true" />
-      <created>1757580091308</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1757580091308</updated>
-    </task>
-    <task id="LOCAL-00002" summary="AP1-1, 2 finalizado">
-      <option name="closed" value="true" />
-      <created>1757582867154</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1757582867154</updated>
-    </task>
-    <task id="LOCAL-00003" summary="AP1-2 corregido y mejorado">
-      <option name="closed" value="true" />
-      <created>1757583482865</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1757583482865</updated>
-    </task>
-    <task id="LOCAL-00004" summary="AP1-3 antes de añadir variable suma">
-      <option name="closed" value="true" />
-      <created>1757584291721</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1757584291721</updated>
-    </task>
-    <task id="LOCAL-00005" summary="AP1-3 antes de añadir variable suma">
-      <option name="closed" value="true" />
-      <created>1757661356156</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1757661356156</updated>
-    </task>
-    <task id="LOCAL-00006" summary="AP1-5 punto 2 acabado">
-      <option name="closed" value="true" />
-      <created>1757936486483</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1757936486483</updated>
-    </task>
-    <task id="LOCAL-00007" summary="AP1-5 finalizado">
-      <option name="closed" value="true" />
-      <created>1758007028636</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1758007028636</updated>
-    </task>
-    <task id="LOCAL-00008" summary="AP3-2 por terminar">
-      <option name="closed" value="true" />
-      <created>1759403594322</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1759403594322</updated>
-    </task>
-    <task id="LOCAL-00009" summary="AP3-2 terminado">
-      <option name="closed" value="true" />
-      <created>1759476256470</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1759476256470</updated>
-    </task>
-    <task id="LOCAL-00010" summary="AP3-3 completo">
-      <option name="closed" value="true" />
-      <created>1760424674586</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1760424674586</updated>
-    </task>
-    <task id="LOCAL-00011" summary="AP3-4 mitad ejercicio">
-      <option name="closed" value="true" />
-      <created>1760426282164</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1760426282164</updated>
-    </task>
-    <task id="LOCAL-00012" summary="AP41- medio hecho">
-      <option name="closed" value="true" />
-      <created>1761034017029</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1761034017029</updated>
-    </task>
-    <task id="LOCAL-00013" summary="AP41- hecho">
-      <option name="closed" value="true" />
-      <created>1761289399294</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1761289399294</updated>
-    </task>
-    <task id="LOCAL-00014" summary="AP42 seguimos trabajando">
-      <option name="closed" value="true" />
-      <created>1761901699987</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1761901699987</updated>
-    </task>
-    <task id="LOCAL-00015" summary="AP42 seguimos">
-      <option name="closed" value="true" />
-      <created>1761902519846</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1761902519846</updated>
-    </task>
-    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="AP1-1 finalizado" />
-    <MESSAGE value="AP1-1, 2 finalizado" />
-    <MESSAGE value="AP1-2 corregido y mejorado" />
-    <MESSAGE value="AP1-3 antes de añadir variable suma" />
-    <MESSAGE value="AP1-5 punto 2 acabado" />
-    <MESSAGE value="AP1-5 finalizado" />
-    <MESSAGE value="AP3-2 por terminar" />
-    <MESSAGE value="AP3-3 acabado" />
-    <MESSAGE value="AP3-2 terminado" />
-    <MESSAGE value="AP3-3 completo" />
-    <MESSAGE value="AP3-4 mitad ejercicio" />
-    <MESSAGE value="AP41- medio hecho" />
-    <MESSAGE value="AP41- hecho" />
-    <MESSAGE value="AP42 seguimos trabajando" />
-    <MESSAGE value="AP42 seguimos" />
-    <option name="LAST_COMMIT_MESSAGE" value="AP42 seguimos" />
   </component>
 </project>

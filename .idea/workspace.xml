@@ -4,9 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7adbfd1c-4e2d-48b7-a48e-2fab3524027e" name="Changes" comment="Cambiado">
-      <change beforePath="$PROJECT_DIR$/.docker/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="7adbfd1c-4e2d-48b7-a48e-2fab3524027e" name="Changes" comment="subido docker con debug">
+      <change beforePath="$PROJECT_DIR$/.db_mysql/aria_log.00000001" beforeDir="false" afterPath="$PROJECT_DIR$/.db_mysql/aria_log.00000001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.db_mysql/aria_log_control" beforeDir="false" afterPath="$PROJECT_DIR$/.db_mysql/aria_log_control" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.db_mysql/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/.db_mysql/ib_buffer_pool" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_10_2025_18_03_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_10_2025_18_03__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bloque3/TiendaOnline/.env" beforeDir="false" afterPath="$PROJECT_DIR$/Bloque3/TiendaOnline/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bloque3/TiendaOnline/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Bloque3/TiendaOnline/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bloque3/TiendaOnline/bin/console" beforeDir="false" afterPath="$PROJECT_DIR$/Bloque3/TiendaOnline/bin/console" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bloque3/TiendaOnline/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/Bloque3/TiendaOnline/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bloque3/TiendaOnline/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Bloque3/TiendaOnline/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bloque3/TiendaOnline/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/Bloque3/TiendaOnline/config/bundles.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,22 +59,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Docker..docker: Compose Deployment.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/marope01/Desktop/DAWES/Docker DWES",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Docker..docker: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/marope01/Desktop/DAWES/Docker DWES&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name=".docker: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
       <deployment type="docker-compose.yml">
@@ -101,7 +112,12 @@
       <option name="presentableId" value="Default" />
       <updated>1757661122242</updated>
       <workItem from="1757661123606" duration="73000" />
-      <workItem from="1762245844113" duration="335000" />
+      <workItem from="1762245844113" duration="1127000" />
+      <workItem from="1762249928937" duration="77000" />
+      <workItem from="1762254348201" duration="688000" />
+      <workItem from="1762503531227" duration="953000" />
+      <workItem from="1763716006059" duration="35000" />
+      <workItem from="1764056944867" duration="5167000" />
     </task>
     <task id="LOCAL-00001" summary="Cambiado">
       <option name="closed" value="true" />
@@ -111,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762245925022</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="subido docker con debug">
+      <option name="closed" value="true" />
+      <created>1762246205536</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1762246205536</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +143,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Cambiado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cambiado" />
+    <MESSAGE value="subido docker con debug" />
+    <option name="LAST_COMMIT_MESSAGE" value="subido docker con debug" />
   </component>
 </project>

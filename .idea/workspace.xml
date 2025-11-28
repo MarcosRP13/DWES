@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7adbfd1c-4e2d-48b7-a48e-2fab3524027e" name="Changes" comment="Symfony" />
+    <list default="true" id="7adbfd1c-4e2d-48b7-a48e-2fab3524027e" name="Changes" comment="modificado" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,6 +104,7 @@
       <workItem from="1762503531227" duration="953000" />
       <workItem from="1763716006059" duration="35000" />
       <workItem from="1764056944867" duration="6497000" />
+      <workItem from="1764315494892" duration="1024000" />
     </task>
     <task id="LOCAL-00001" summary="Cambiado">
       <option name="closed" value="true" />
@@ -129,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764066439791</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="modificado">
+      <option name="closed" value="true" />
+      <created>1764316349311</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1764316349311</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +148,7 @@
     <MESSAGE value="Cambiado" />
     <MESSAGE value="subido docker con debug" />
     <MESSAGE value="Symfony" />
-    <option name="LAST_COMMIT_MESSAGE" value="Symfony" />
+    <MESSAGE value="modificado" />
+    <option name="LAST_COMMIT_MESSAGE" value="modificado" />
   </component>
 </project>

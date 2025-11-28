@@ -2,7 +2,7 @@
 <dataSource name="@localhost">
   <database-model serializer="dbm" dbms="MARIADB" family-id="MARIADB" format-version="4.53">
     <root id="1">
-      <DefaultCasing>mixed/mixed</DefaultCasing>
+      <DefaultCasing>exact</DefaultCasing>
       <DefaultEngine>InnoDB</DefaultEngine>
       <Grants>|root||root||ALTER|G
 |root||root|localhost|ALTER|G
@@ -1409,126 +1409,33 @@
     <collation id="553" parent="1" name="utf8mb4_vietnamese_ci">
       <Charset>utf8mb4</Charset>
     </collation>
-    <schema id="554" parent="1" name="AP1">
-      <AutoIntrospectionLevel>3</AutoIntrospectionLevel>
-      <LastIntrospectionLevel>3</LastIntrospectionLevel>
-      <LastIntrospectionLocalTimestamp>2025-10-30.18:24:23</LastIntrospectionLocalTimestamp>
-      <CollationName>utf8mb4_general_ci</CollationName>
-    </schema>
-    <schema id="555" parent="1" name="information_schema">
+    <schema id="554" parent="1" name="information_schema">
       <CollationName>utf8mb3_general_ci</CollationName>
     </schema>
-    <schema id="556" parent="1" name="mysql">
+    <schema id="555" parent="1" name="mysql">
       <CollationName>utf8mb4_uca1400_ai_ci</CollationName>
     </schema>
-    <schema id="557" parent="1" name="performance_schema">
+    <schema id="556" parent="1" name="performance_schema">
       <CollationName>utf8mb3_general_ci</CollationName>
     </schema>
-    <schema id="558" parent="1" name="sys">
+    <schema id="557" parent="1" name="sys">
       <CollationName>utf8mb3_general_ci</CollationName>
     </schema>
-    <schema id="559" parent="1" name="todolist">
-      <AutoIntrospectionLevel>3</AutoIntrospectionLevel>
-      <LastIntrospectionLevel>3</LastIntrospectionLevel>
-      <LastIntrospectionLocalTimestamp>2025-10-30.18:59:54</LastIntrospectionLocalTimestamp>
-      <CollationName>utf8mb3_spanish_ci</CollationName>
-    </schema>
-    <user id="560" parent="1" name="healthcheck">
+    <user id="558" parent="1" name="healthcheck">
       <Host>127.0.0.1</Host>
     </user>
-    <user id="561" parent="1" name="healthcheck">
+    <user id="559" parent="1" name="healthcheck">
       <Host>::1</Host>
     </user>
-    <user id="562" parent="1" name="healthcheck">
+    <user id="560" parent="1" name="healthcheck">
       <Host>localhost</Host>
     </user>
-    <user id="563" parent="1" name="mariadb.sys">
+    <user id="561" parent="1" name="mariadb.sys">
       <Host>localhost</Host>
     </user>
-    <user id="564" parent="1" name="root"/>
-    <user id="565" parent="1" name="root">
+    <user id="562" parent="1" name="root"/>
+    <user id="563" parent="1" name="root">
       <Host>localhost</Host>
     </user>
-    <table id="566" parent="554" name="operaciones">
-      <DetailsLevel>3</DetailsLevel>
-      <Engine>InnoDB</Engine>
-      <CollationName>utf8mb4_general_ci</CollationName>
-    </table>
-    <table id="567" parent="554" name="usuarios">
-      <DetailsLevel>3</DetailsLevel>
-      <Engine>InnoDB</Engine>
-      <CollationName>utf8mb4_general_ci</CollationName>
-    </table>
-    <column id="568" parent="566" name="id">
-      <AutoIncrement>7</AutoIncrement>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-      <StoredType>int(11)|0s</StoredType>
-    </column>
-    <column id="569" parent="566" name="resultado">
-      <NotNull>1</NotNull>
-      <Position>2</Position>
-      <StoredType>decimal(10,2 digit)|0s</StoredType>
-    </column>
-    <column id="570" parent="566" name="usuario">
-      <NotNull>1</NotNull>
-      <Position>3</Position>
-      <StoredType>int(11)|0s</StoredType>
-    </column>
-    <foreign-key id="571" parent="566" name="operaciones_usuarios_id_fk">
-      <ColNames>usuario</ColNames>
-      <RefColNames>id</RefColNames>
-      <RefTableName>usuarios</RefTableName>
-      <RefTableParentName>ap1</RefTableParentName>
-    </foreign-key>
-    <index id="572" parent="566" name="PRIMARY">
-      <ColNames>id</ColNames>
-      <Type>btree</Type>
-      <Unique>1</Unique>
-    </index>
-    <index id="573" parent="566" name="operaciones_usuarios_id_fk2">
-      <ColNames>usuario</ColNames>
-      <Type>btree</Type>
-    </index>
-    <key id="574" parent="566" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <Primary>1</Primary>
-      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
-    </key>
-    <column id="575" parent="567" name="id">
-      <AutoIncrement>5</AutoIncrement>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-      <StoredType>int(11)|0s</StoredType>
-    </column>
-    <column id="576" parent="567" name="nombre">
-      <NotNull>1</NotNull>
-      <Position>2</Position>
-      <StoredType>varchar(30)|0s</StoredType>
-    </column>
-    <column id="577" parent="567" name="estado">
-      <DefaultExpression>0</DefaultExpression>
-      <NotNull>1</NotNull>
-      <Position>3</Position>
-      <StoredType>tinyint(1)|0s</StoredType>
-    </column>
-    <index id="578" parent="567" name="PRIMARY">
-      <ColNames>id</ColNames>
-      <Type>btree</Type>
-      <Unique>1</Unique>
-    </index>
-    <index id="579" parent="567" name="usuarios_pk">
-      <ColNames>nombre</ColNames>
-      <Type>btree</Type>
-      <Unique>1</Unique>
-    </index>
-    <key id="580" parent="567" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <Primary>1</Primary>
-      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
-    </key>
-    <key id="581" parent="567" name="usuarios_pk">
-      <UnderlyingIndexName>usuarios_pk</UnderlyingIndexName>
-    </key>
   </database-model>
 </dataSource>

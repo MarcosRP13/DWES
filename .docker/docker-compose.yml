@@ -12,8 +12,8 @@ services:
       - "8001:8000"
     volumes:
       - ../:/var/www/html:delegated
-      - /var/www/html/Bloque3/AP71/vendor
-      - /var/www/html/Bloque3/AP71/var
+      - /var/www/html/Bloque3/AP72/vendor
+      - /var/www/html/Bloque3/AP72/var
     networks:
       - project_network
 

@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7adbfd1c-4e2d-48b7-a48e-2fab3524027e" name="Changes" comment="AP71 a punto de terminar">
-      <change afterPath="$PROJECT_DIR$/Bloque3/AP71/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bfa8ca59-8d64-4c91-abad-131cb9e9b4dd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/bfa8ca59-8d64-4c91-abad-131cb9e9b4dd.xml" afterDir="false" />
+    <list default="true" id="7adbfd1c-4e2d-48b7-a48e-2fab3524027e" name="Changes" comment="AP71 terminado">
+      <change beforePath="$PROJECT_DIR$/.docker/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,7 +109,7 @@
       <workItem from="1764056944867" duration="6497000" />
       <workItem from="1764315494892" duration="5193000" />
       <workItem from="1764588961410" duration="3901000" />
-      <workItem from="1764661159133" duration="2919000" />
+      <workItem from="1764661159133" duration="5042000" />
     </task>
     <task id="LOCAL-00001" summary="Cambiado">
       <option name="closed" value="true" />
@@ -177,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764593073116</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="AP71 terminado">
+      <option name="closed" value="true" />
+      <created>1764664121492</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1764664121492</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +197,7 @@
     <MESSAGE value="Hago cosas" />
     <MESSAGE value="AP71 a medias" />
     <MESSAGE value="AP71 a punto de terminar" />
-    <option name="LAST_COMMIT_MESSAGE" value="AP71 a punto de terminar" />
+    <MESSAGE value="AP71 terminado" />
+    <option name="LAST_COMMIT_MESSAGE" value="AP71 terminado" />
   </component>
 </project>

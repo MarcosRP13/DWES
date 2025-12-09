@@ -13,6 +13,7 @@
         <introspection-scope>
           <node kind="schema">
             <name qname="@" />
+            <name qname="ap70" />
             <name qname="tienda_online" />
             <name qname="AP1" />
             <name qname="todolist" />

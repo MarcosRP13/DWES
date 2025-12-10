@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7adbfd1c-4e2d-48b7-a48e-2fab3524027e" name="Changes" comment="AP72 Empezado">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bfa8ca59-8d64-4c91-abad-131cb9e9b4dd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/bfa8ca59-8d64-4c91-abad-131cb9e9b4dd.xml" afterDir="false" />
+    <list default="true" id="7adbfd1c-4e2d-48b7-a48e-2fab3524027e" name="Changes" comment="AP72 Crud creado">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +112,7 @@
       <workItem from="1764661159133" duration="5860000" />
       <workItem from="1764920206185" duration="1320000" />
       <workItem from="1764924436098" duration="2351000" />
-      <workItem from="1765265587301" duration="4604000" />
+      <workItem from="1765265587301" duration="5222000" />
     </task>
     <task id="LOCAL-00001" summary="Cambiado">
       <option name="closed" value="true" />
@@ -196,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764666285468</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="AP72 Crud creado">
+      <option name="closed" value="true" />
+      <created>1765270825013</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1765270825013</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +218,7 @@
     <MESSAGE value="AP71 a punto de terminar" />
     <MESSAGE value="AP71 terminado" />
     <MESSAGE value="AP72 Empezado" />
-    <option name="LAST_COMMIT_MESSAGE" value="AP72 Empezado" />
+    <MESSAGE value="AP72 Crud creado" />
+    <option name="LAST_COMMIT_MESSAGE" value="AP72 Crud creado" />
   </component>
 </project>

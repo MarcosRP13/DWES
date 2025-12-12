@@ -4,7 +4,15 @@
 
 {% block body %}
     <h1>Module</h1>
+    <p>Este módulo tiene <strong>{{ module.students|length }}</strong> alumnos inscritos:</p>
 
+    <ul>
+        {% for student in module.students %}
+            <li>
+                {{ student.name }} – {{ student.email }}
+            </li>
+        {% endfor %}
+    </ul>
     <table class="table">
         <tbody>
             <tr>

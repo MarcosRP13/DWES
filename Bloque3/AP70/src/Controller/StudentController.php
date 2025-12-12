@@ -4,6 +4,7 @@ namespace App\Controller;
 
 use App\Entity\Student;
 use App\Form\StudentType;
+use App\Repository\ModuleRepository;
 use App\Repository\StudentRepository;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
@@ -15,10 +16,28 @@ use Symfony\Component\Routing\Attribute\Route;
 final class StudentController extends AbstractController
 {
     #[Route(name: 'app_student_index', methods: ['GET'])]
-    public function index(StudentRepository $studentRepository): Response
+    public function index(Request $request, StudentRepository $studentRepository, ModuleRepository $moduleRepository): Response
     {
+        $students = $studentRepository->findAll();
+        $modules = $moduleRepository->findAll();
+
+        $moduleId = $request->query->get('module');
+        $moduleName = 'todos los modulos';
+        $totalStudents = count($students);
+
+        if ($moduleId) {
+            $students = $studentRepository->findBy(['module' => $moduleId]);
+            $totalStudents = count($students);
+
+            if(!empty($students)) {
+                $moduleName = $students[0]->getModule()->getName();
+            }
+        }
         return $this->render('student/index.html.twig', [
-            'students' => $studentRepository->findAll(),
+            'students' => $students,
+            'modules' => $modules,
+            'moduleName' => $moduleName,
+            'totalStudents' => $totalStudents,
         ]);
     }
 

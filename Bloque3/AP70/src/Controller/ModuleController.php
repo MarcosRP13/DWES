@@ -15,12 +15,29 @@ use Symfony\Component\Routing\Attribute\Route;
 final class ModuleController extends AbstractController
 {
     #[Route(name: 'app_module_index', methods: ['GET'])]
-    public function index(ModuleRepository $moduleRepository): Response
+    public function index(Request $request, ModuleRepository $moduleRepository): Response
     {
+        $modules = $moduleRepository->findAll();
+
+        $moduleId = $request->query->get('module');
+        $selectedModule = null;
+        $totalStudents = 0;
+
+        if ($moduleId) {
+            $selectedModule = $moduleRepository->find($moduleId);
+
+            if ($selectedModule) {
+                $totalStudents = $selectedModule->getStudents()->count();
+            }
+        }
+
         return $this->render('module/index.html.twig', [
-            'modules' => $moduleRepository->findAll(),
+            'modules' => $modules,
+            'selectedModule' => $selectedModule,
+            'totalStudents' => $totalStudents,
         ]);
     }
+
 
     #[Route('/new', name: 'app_module_new', methods: ['GET', 'POST'])]
     public function new(Request $request, EntityManagerInterface $entityManager): Response

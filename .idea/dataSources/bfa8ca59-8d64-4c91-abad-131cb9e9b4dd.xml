@@ -1412,302 +1412,156 @@
     <schema id="554" parent="1" name="ap70">
       <AutoIntrospectionLevel>3</AutoIntrospectionLevel>
       <LastIntrospectionLevel>3</LastIntrospectionLevel>
-      <LastIntrospectionLocalTimestamp>2025-12-09.08:54:13</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2025-12-16.08:01:54</LastIntrospectionLocalTimestamp>
       <CollationName>utf8mb4_uca1400_ai_ci</CollationName>
     </schema>
-    <schema id="555" parent="1" name="information_schema">
-      <CollationName>utf8mb3_general_ci</CollationName>
-    </schema>
-    <schema id="556" parent="1" name="mysql">
-      <CollationName>utf8mb4_uca1400_ai_ci</CollationName>
-    </schema>
-    <schema id="557" parent="1" name="performance_schema">
-      <CollationName>utf8mb3_general_ci</CollationName>
-    </schema>
-    <schema id="558" parent="1" name="sys">
-      <CollationName>utf8mb3_general_ci</CollationName>
-    </schema>
-    <schema id="559" parent="1" name="tienda_online">
+    <schema id="555" parent="1" name="ap74">
       <AutoIntrospectionLevel>3</AutoIntrospectionLevel>
       <LastIntrospectionLevel>3</LastIntrospectionLevel>
-      <LastIntrospectionLocalTimestamp>2025-12-09.08:47:43</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2025-12-16.08:03:07</LastIntrospectionLocalTimestamp>
       <CollationName>utf8mb4_uca1400_ai_ci</CollationName>
     </schema>
-    <user id="560" parent="1" name="healthcheck">
+    <schema id="556" parent="1" name="information_schema">
+      <CollationName>utf8mb3_general_ci</CollationName>
+    </schema>
+    <schema id="557" parent="1" name="mysql">
+      <CollationName>utf8mb4_uca1400_ai_ci</CollationName>
+    </schema>
+    <schema id="558" parent="1" name="performance_schema">
+      <CollationName>utf8mb3_general_ci</CollationName>
+    </schema>
+    <schema id="559" parent="1" name="sys">
+      <CollationName>utf8mb3_general_ci</CollationName>
+    </schema>
+    <schema id="560" parent="1" name="tienda_online">
+      <AutoIntrospectionLevel>3</AutoIntrospectionLevel>
+      <LastIntrospectionLevel>3</LastIntrospectionLevel>
+      <LastIntrospectionLocalTimestamp>2025-12-16.08:01:54</LastIntrospectionLocalTimestamp>
+      <CollationName>utf8mb4_uca1400_ai_ci</CollationName>
+    </schema>
+    <user id="561" parent="1" name="healthcheck">
       <Host>127.0.0.1</Host>
     </user>
-    <user id="561" parent="1" name="healthcheck">
+    <user id="562" parent="1" name="healthcheck">
       <Host>::1</Host>
     </user>
-    <user id="562" parent="1" name="healthcheck">
+    <user id="563" parent="1" name="healthcheck">
       <Host>localhost</Host>
     </user>
-    <user id="563" parent="1" name="mariadb.sys">
+    <user id="564" parent="1" name="mariadb.sys">
       <Host>localhost</Host>
     </user>
-    <user id="564" parent="1" name="root"/>
-    <user id="565" parent="1" name="root">
+    <user id="565" parent="1" name="root"/>
+    <user id="566" parent="1" name="root">
       <Host>localhost</Host>
     </user>
-    <table id="566" parent="554" name="messenger_messages">
+    <table id="567" parent="555" name="messenger_messages">
       <DetailsLevel>3</DetailsLevel>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb3_uca1400_ai_ci</CollationName>
     </table>
-    <table id="567" parent="554" name="module">
+    <table id="568" parent="555" name="player">
       <DetailsLevel>3</DetailsLevel>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb3_uca1400_ai_ci</CollationName>
     </table>
-    <table id="568" parent="554" name="student">
-      <DetailsLevel>3</DetailsLevel>
-      <Engine>InnoDB</Engine>
-      <CollationName>utf8mb3_uca1400_ai_ci</CollationName>
-    </table>
-    <table id="569" parent="559" name="doctrine_migration_versions">
-      <DetailsLevel>3</DetailsLevel>
-      <Engine>InnoDB</Engine>
-      <CollationName>utf8mb4_uca1400_ai_ci</CollationName>
-    </table>
-    <table id="570" parent="559" name="messenger_messages">
-      <DetailsLevel>3</DetailsLevel>
-      <Engine>InnoDB</Engine>
-      <CollationName>utf8mb3_uca1400_ai_ci</CollationName>
-    </table>
-    <table id="571" parent="559" name="product">
-      <DetailsLevel>3</DetailsLevel>
-      <Engine>InnoDB</Engine>
-      <CollationName>utf8mb3_uca1400_ai_ci</CollationName>
-    </table>
-    <column id="572" parent="566" name="id">
+    <column id="569" parent="567" name="id">
       <AutoIncrement>1</AutoIncrement>
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StoredType>bigint(20)|0s</StoredType>
     </column>
-    <column id="573" parent="566" name="body">
+    <column id="570" parent="567" name="body">
       <NotNull>1</NotNull>
       <Position>2</Position>
       <StoredType>longtext|0s</StoredType>
     </column>
-    <column id="574" parent="566" name="headers">
+    <column id="571" parent="567" name="headers">
       <NotNull>1</NotNull>
       <Position>3</Position>
       <StoredType>longtext|0s</StoredType>
     </column>
-    <column id="575" parent="566" name="queue_name">
+    <column id="572" parent="567" name="queue_name">
       <NotNull>1</NotNull>
       <Position>4</Position>
       <StoredType>varchar(190)|0s</StoredType>
     </column>
-    <column id="576" parent="566" name="created_at">
+    <column id="573" parent="567" name="created_at">
       <NotNull>1</NotNull>
       <Position>5</Position>
       <StoredType>datetime|0s</StoredType>
     </column>
-    <column id="577" parent="566" name="available_at">
+    <column id="574" parent="567" name="available_at">
       <NotNull>1</NotNull>
       <Position>6</Position>
       <StoredType>datetime|0s</StoredType>
     </column>
-    <column id="578" parent="566" name="delivered_at">
+    <column id="575" parent="567" name="delivered_at">
       <Position>7</Position>
       <StoredType>datetime|0s</StoredType>
     </column>
-    <index id="579" parent="566" name="PRIMARY">
+    <index id="576" parent="567" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="580" parent="566" name="IDX_75EA56E0FB7336F0">
+    <index id="577" parent="567" name="IDX_75EA56E0FB7336F0">
       <ColNames>queue_name</ColNames>
       <Type>btree</Type>
     </index>
-    <index id="581" parent="566" name="IDX_75EA56E0E3BD61CE">
+    <index id="578" parent="567" name="IDX_75EA56E0E3BD61CE">
       <ColNames>available_at</ColNames>
       <Type>btree</Type>
     </index>
-    <index id="582" parent="566" name="IDX_75EA56E016BA31DB">
+    <index id="579" parent="567" name="IDX_75EA56E016BA31DB">
       <ColNames>delivered_at</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="583" parent="566" name="PRIMARY">
+    <key id="580" parent="567" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="584" parent="567" name="id">
+    <column id="581" parent="568" name="id">
       <AutoIncrement>1</AutoIncrement>
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StoredType>int(11)|0s</StoredType>
     </column>
-    <column id="585" parent="567" name="name">
+    <column id="582" parent="568" name="name">
       <Position>2</Position>
       <StoredType>varchar(255)|0s</StoredType>
     </column>
-    <column id="586" parent="567" name="credits">
-      <Position>3</Position>
-      <StoredType>int(11)|0s</StoredType>
-    </column>
-    <index id="587" parent="567" name="PRIMARY">
-      <ColNames>id</ColNames>
-      <Type>btree</Type>
-      <Unique>1</Unique>
-    </index>
-    <key id="588" parent="567" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <Primary>1</Primary>
-      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
-    </key>
-    <column id="589" parent="568" name="id">
-      <AutoIncrement>1</AutoIncrement>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-      <StoredType>int(11)|0s</StoredType>
-    </column>
-    <column id="590" parent="568" name="name">
-      <Position>2</Position>
-      <StoredType>varchar(255)|0s</StoredType>
-    </column>
-    <column id="591" parent="568" name="email">
+    <column id="583" parent="568" name="last_name">
       <Position>3</Position>
       <StoredType>varchar(255)|0s</StoredType>
     </column>
-    <column id="592" parent="568" name="age">
+    <column id="584" parent="568" name="age">
       <Position>4</Position>
       <StoredType>int(11)|0s</StoredType>
     </column>
-    <column id="593" parent="568" name="module_id">
+    <column id="585" parent="568" name="team">
       <Position>5</Position>
-      <StoredType>int(11)|0s</StoredType>
+      <StoredType>varchar(255)|0s</StoredType>
     </column>
-    <foreign-key id="594" parent="568" name="FK_B723AF33AFC2B591">
-      <ColNames>module_id</ColNames>
-      <RefColNames>id</RefColNames>
-      <RefTableName>module</RefTableName>
-    </foreign-key>
-    <index id="595" parent="568" name="PRIMARY">
-      <ColNames>id</ColNames>
-      <Type>btree</Type>
-      <Unique>1</Unique>
-    </index>
-    <index id="596" parent="568" name="IDX_B723AF33AFC2B591">
-      <ColNames>module_id</ColNames>
-      <Type>btree</Type>
-    </index>
-    <key id="597" parent="568" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <Primary>1</Primary>
-      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
-    </key>
-    <column id="598" parent="569" name="version">
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-      <StoredType>varchar(191)|0s</StoredType>
-    </column>
-    <column id="599" parent="569" name="executed_at">
-      <Position>2</Position>
-      <StoredType>datetime|0s</StoredType>
-    </column>
-    <column id="600" parent="569" name="execution_time">
-      <Position>3</Position>
-      <StoredType>int(11)|0s</StoredType>
-    </column>
-    <index id="601" parent="569" name="PRIMARY">
-      <ColNames>version</ColNames>
-      <Type>btree</Type>
-      <Unique>1</Unique>
-    </index>
-    <key id="602" parent="569" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <Primary>1</Primary>
-      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
-    </key>
-    <column id="603" parent="570" name="id">
-      <AutoIncrement>1</AutoIncrement>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-      <StoredType>bigint(20)|0s</StoredType>
-    </column>
-    <column id="604" parent="570" name="body">
-      <NotNull>1</NotNull>
-      <Position>2</Position>
-      <StoredType>longtext|0s</StoredType>
-    </column>
-    <column id="605" parent="570" name="headers">
-      <NotNull>1</NotNull>
-      <Position>3</Position>
-      <StoredType>longtext|0s</StoredType>
-    </column>
-    <column id="606" parent="570" name="queue_name">
-      <NotNull>1</NotNull>
-      <Position>4</Position>
-      <StoredType>varchar(190)|0s</StoredType>
-    </column>
-    <column id="607" parent="570" name="created_at">
-      <NotNull>1</NotNull>
-      <Position>5</Position>
-      <StoredType>datetime|0s</StoredType>
-    </column>
-    <column id="608" parent="570" name="available_at">
-      <NotNull>1</NotNull>
+    <column id="586" parent="568" name="goals">
       <Position>6</Position>
-      <StoredType>datetime|0s</StoredType>
+      <StoredType>int(11)|0s</StoredType>
     </column>
-    <column id="609" parent="570" name="delivered_at">
+    <column id="587" parent="568" name="cards">
       <Position>7</Position>
-      <StoredType>datetime|0s</StoredType>
+      <StoredType>int(11)|0s</StoredType>
     </column>
-    <index id="610" parent="570" name="PRIMARY">
+    <column id="588" parent="568" name="bith_date">
+      <Position>8</Position>
+      <StoredType>date|0s</StoredType>
+    </column>
+    <index id="589" parent="568" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="611" parent="570" name="IDX_75EA56E0FB7336F0">
-      <ColNames>queue_name</ColNames>
-      <Type>btree</Type>
-    </index>
-    <index id="612" parent="570" name="IDX_75EA56E0E3BD61CE">
-      <ColNames>available_at</ColNames>
-      <Type>btree</Type>
-    </index>
-    <index id="613" parent="570" name="IDX_75EA56E016BA31DB">
-      <ColNames>delivered_at</ColNames>
-      <Type>btree</Type>
-    </index>
-    <key id="614" parent="570" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <Primary>1</Primary>
-      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
-    </key>
-    <column id="615" parent="571" name="id">
-      <AutoIncrement>6</AutoIncrement>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-      <StoredType>int(11)|0s</StoredType>
-    </column>
-    <column id="616" parent="571" name="name">
-      <NotNull>1</NotNull>
-      <Position>2</Position>
-      <StoredType>varchar(255)|0s</StoredType>
-    </column>
-    <column id="617" parent="571" name="price">
-      <NotNull>1</NotNull>
-      <Position>3</Position>
-      <StoredType>double|0s</StoredType>
-    </column>
-    <column id="618" parent="571" name="stock">
-      <NotNull>1</NotNull>
-      <Position>4</Position>
-      <StoredType>int(11)|0s</StoredType>
-    </column>
-    <index id="619" parent="571" name="PRIMARY">
-      <ColNames>id</ColNames>
-      <Type>btree</Type>
-      <Unique>1</Unique>
-    </index>
-    <key id="620" parent="571" name="PRIMARY">
+    <key id="590" parent="568" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>

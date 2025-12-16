@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7adbfd1c-4e2d-48b7-a48e-2fab3524027e" name="Changes" comment="AP72 Crud creado">
-      <change beforePath="$PROJECT_DIR$/Bloque3/AP70/templates/module/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Bloque3/AP70/templates/module/show.html.twig" afterDir="false" />
+    <list default="true" id="7adbfd1c-4e2d-48b7-a48e-2fab3524027e" name="Changes" comment="AP72 casi terminado">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bfa8ca59-8d64-4c91-abad-131cb9e9b4dd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/bfa8ca59-8d64-4c91-abad-131cb9e9b4dd.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +116,8 @@
       <workItem from="1764924436098" duration="2351000" />
       <workItem from="1765265587301" duration="5222000" />
       <workItem from="1765351581209" duration="158000" />
-      <workItem from="1765525040501" duration="4796000" />
+      <workItem from="1765525040501" duration="5425000" />
+      <workItem from="1765870694657" duration="3399000" />
     </task>
     <task id="LOCAL-00001" summary="Cambiado">
       <option name="closed" value="true" />
@@ -220,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765530089608</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="AP72 casi terminado">
+      <option name="closed" value="true" />
+      <created>1765530221462</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1765530221462</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,6 +248,7 @@
     <MESSAGE value="AP71 terminado" />
     <MESSAGE value="AP72 Empezado" />
     <MESSAGE value="AP72 Crud creado" />
-    <option name="LAST_COMMIT_MESSAGE" value="AP72 Crud creado" />
+    <MESSAGE value="AP72 casi terminado" />
+    <option name="LAST_COMMIT_MESSAGE" value="AP72 casi terminado" />
   </component>
 </project>

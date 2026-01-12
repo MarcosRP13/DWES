@@ -13,7 +13,7 @@
         <introspection-scope>
           <node kind="schema">
             <name qname="@" />
-            <name qname="ap74" />
+            <name qname="ap80" />
           </node>
         </introspection-scope>
       </schema-mapping>

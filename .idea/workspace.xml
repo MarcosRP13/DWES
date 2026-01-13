@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7adbfd1c-4e2d-48b7-a48e-2fab3524027e" name="Changes" comment="AP74 terminado">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bfa8ca59-8d64-4c91-abad-131cb9e9b4dd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/bfa8ca59-8d64-4c91-abad-131cb9e9b4dd.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="7adbfd1c-4e2d-48b7-a48e-2fab3524027e" name="Changes" comment="AP80">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bloque3/AP80/src/Controller/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Bloque3/AP80/src/Controller/MainController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bloque3/AP80/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Bloque3/AP80/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bloque3/AP80/templates/main/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Bloque3/AP80/templates/main/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +122,9 @@
       <workItem from="1765870694657" duration="4913000" />
       <workItem from="1767954165847" duration="64000" />
       <workItem from="1767956530969" duration="28000" />
-      <workItem from="1768217620972" duration="4024000" />
+      <workItem from="1768217620972" duration="4451000" />
+      <workItem from="1768291901112" duration="498000" />
+      <workItem from="1768292782163" duration="1538000" />
     </task>
     <task id="LOCAL-00001" summary="Cambiado">
       <option name="closed" value="true" />
@@ -244,7 +246,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765874417080</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="AP80">
+      <option name="closed" value="true" />
+      <created>1768222109861</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1768222109861</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,6 +273,7 @@
     <MESSAGE value="AP72 Crud creado" />
     <MESSAGE value="AP72 casi terminado" />
     <MESSAGE value="AP74 terminado" />
-    <option name="LAST_COMMIT_MESSAGE" value="AP74 terminado" />
+    <MESSAGE value="AP80" />
+    <option name="LAST_COMMIT_MESSAGE" value="AP80" />
   </component>
 </project>

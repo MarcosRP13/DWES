@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7adbfd1c-4e2d-48b7-a48e-2fab3524027e" name="Changes" comment="AP80">
+    <list default="true" id="7adbfd1c-4e2d-48b7-a48e-2fab3524027e" name="Changes" comment="AP81 Login y Register">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bloque3/AP80/src/Controller/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Bloque3/AP80/src/Controller/MainController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bloque3/AP80/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Bloque3/AP80/templates/base.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bloque3/AP80/templates/main/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Bloque3/AP80/templates/main/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,7 +122,9 @@
       <workItem from="1767956530969" duration="28000" />
       <workItem from="1768217620972" duration="4451000" />
       <workItem from="1768291901112" duration="498000" />
-      <workItem from="1768292782163" duration="1538000" />
+      <workItem from="1768292782163" duration="2180000" />
+      <workItem from="1768468896526" duration="348000" />
+      <workItem from="1768548815971" duration="2295000" />
     </task>
     <task id="LOCAL-00001" summary="Cambiado">
       <option name="closed" value="true" />
@@ -254,7 +254,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768222109861</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="AP81 Login y Register">
+      <option name="closed" value="true" />
+      <created>1768294839388</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1768294839388</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,6 +282,7 @@
     <MESSAGE value="AP72 casi terminado" />
     <MESSAGE value="AP74 terminado" />
     <MESSAGE value="AP80" />
-    <option name="LAST_COMMIT_MESSAGE" value="AP80" />
+    <MESSAGE value="AP81 Login y Register" />
+    <option name="LAST_COMMIT_MESSAGE" value="AP81 Login y Register" />
   </component>
 </project>

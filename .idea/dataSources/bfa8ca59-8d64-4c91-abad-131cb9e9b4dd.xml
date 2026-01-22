@@ -1424,149 +1424,167 @@
     <schema id="556" parent="1" name="ap80">
       <AutoIntrospectionLevel>3</AutoIntrospectionLevel>
       <LastIntrospectionLevel>3</LastIntrospectionLevel>
-      <LastIntrospectionLocalTimestamp>2026-01-12.12:09:44</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2026-01-22.08:58:23</LastIntrospectionLocalTimestamp>
       <CollationName>utf8mb4_uca1400_ai_ci</CollationName>
     </schema>
-    <schema id="557" parent="1" name="information_schema">
-      <CollationName>utf8mb3_general_ci</CollationName>
-    </schema>
-    <schema id="558" parent="1" name="mysql">
+    <schema id="557" parent="1" name="ap91">
+      <AutoIntrospectionLevel>3</AutoIntrospectionLevel>
+      <LastIntrospectionLevel>3</LastIntrospectionLevel>
+      <LastIntrospectionLocalTimestamp>2026-01-22.11:29:14</LastIntrospectionLocalTimestamp>
       <CollationName>utf8mb4_uca1400_ai_ci</CollationName>
     </schema>
-    <schema id="559" parent="1" name="performance_schema">
+    <schema id="558" parent="1" name="api">
+      <AutoIntrospectionLevel>3</AutoIntrospectionLevel>
+      <LastIntrospectionLevel>3</LastIntrospectionLevel>
+      <LastIntrospectionLocalTimestamp>2026-01-22.11:22:44</LastIntrospectionLocalTimestamp>
+      <CollationName>utf8mb4_uca1400_ai_ci</CollationName>
+    </schema>
+    <schema id="559" parent="1" name="information_schema">
       <CollationName>utf8mb3_general_ci</CollationName>
     </schema>
-    <schema id="560" parent="1" name="sys">
+    <schema id="560" parent="1" name="mysql">
+      <CollationName>utf8mb4_uca1400_ai_ci</CollationName>
+    </schema>
+    <schema id="561" parent="1" name="performance_schema">
       <CollationName>utf8mb3_general_ci</CollationName>
     </schema>
-    <schema id="561" parent="1" name="tienda_online">
+    <schema id="562" parent="1" name="sys">
+      <CollationName>utf8mb3_general_ci</CollationName>
+    </schema>
+    <schema id="563" parent="1" name="tienda_online">
       <AutoIntrospectionLevel>3</AutoIntrospectionLevel>
       <LastIntrospectionLevel>3</LastIntrospectionLevel>
       <LastIntrospectionLocalTimestamp>2025-12-16.08:01:54</LastIntrospectionLocalTimestamp>
       <CollationName>utf8mb4_uca1400_ai_ci</CollationName>
     </schema>
-    <user id="562" parent="1" name="healthcheck">
+    <user id="564" parent="1" name="healthcheck">
       <Host>127.0.0.1</Host>
     </user>
-    <user id="563" parent="1" name="healthcheck">
+    <user id="565" parent="1" name="healthcheck">
       <Host>::1</Host>
     </user>
-    <user id="564" parent="1" name="healthcheck">
+    <user id="566" parent="1" name="healthcheck">
       <Host>localhost</Host>
     </user>
-    <user id="565" parent="1" name="mariadb.sys">
+    <user id="567" parent="1" name="mariadb.sys">
       <Host>localhost</Host>
     </user>
-    <user id="566" parent="1" name="root"/>
-    <user id="567" parent="1" name="root">
+    <user id="568" parent="1" name="root"/>
+    <user id="569" parent="1" name="root">
       <Host>localhost</Host>
     </user>
-    <table id="568" parent="556" name="messenger_messages">
+    <table id="570" parent="557" name="messenger_messages">
       <DetailsLevel>3</DetailsLevel>
       <Engine>InnoDB</Engine>
-      <CollationName>utf8mb3_uca1400_ai_ci</CollationName>
+      <CollationName>utf8mb4_uca1400_ai_ci</CollationName>
     </table>
-    <table id="569" parent="556" name="user">
+    <table id="571" parent="557" name="player_card">
       <DetailsLevel>3</DetailsLevel>
       <Engine>InnoDB</Engine>
-      <CollationName>utf8mb3_uca1400_ai_ci</CollationName>
+      <CollationName>utf8mb4_uca1400_ai_ci</CollationName>
     </table>
-    <column id="570" parent="568" name="id">
+    <column id="572" parent="570" name="id">
       <AutoIncrement>1</AutoIncrement>
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StoredType>bigint(20)|0s</StoredType>
     </column>
-    <column id="571" parent="568" name="body">
+    <column id="573" parent="570" name="body">
       <NotNull>1</NotNull>
       <Position>2</Position>
       <StoredType>longtext|0s</StoredType>
     </column>
-    <column id="572" parent="568" name="headers">
+    <column id="574" parent="570" name="headers">
       <NotNull>1</NotNull>
       <Position>3</Position>
       <StoredType>longtext|0s</StoredType>
     </column>
-    <column id="573" parent="568" name="queue_name">
+    <column id="575" parent="570" name="queue_name">
       <NotNull>1</NotNull>
       <Position>4</Position>
       <StoredType>varchar(190)|0s</StoredType>
     </column>
-    <column id="574" parent="568" name="created_at">
+    <column id="576" parent="570" name="created_at">
       <NotNull>1</NotNull>
       <Position>5</Position>
       <StoredType>datetime|0s</StoredType>
     </column>
-    <column id="575" parent="568" name="available_at">
+    <column id="577" parent="570" name="available_at">
       <NotNull>1</NotNull>
       <Position>6</Position>
       <StoredType>datetime|0s</StoredType>
     </column>
-    <column id="576" parent="568" name="delivered_at">
+    <column id="578" parent="570" name="delivered_at">
       <Position>7</Position>
       <StoredType>datetime|0s</StoredType>
     </column>
-    <index id="577" parent="568" name="PRIMARY">
+    <index id="579" parent="570" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="578" parent="568" name="IDX_75EA56E0FB7336F0E3BD61CE16BA31DBBF396750">
+    <index id="580" parent="570" name="IDX_75EA56E0FB7336F0E3BD61CE16BA31DBBF396750">
       <ColNames>queue_name
 available_at
 delivered_at
 id</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="579" parent="568" name="PRIMARY">
+    <key id="581" parent="570" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <check id="580" parent="569" name="roles">
-      <ColNames>roles</ColNames>
-      <NameSurrogate>1</NameSurrogate>
-      <Predicate>json_valid(`roles`)</Predicate>
-    </check>
-    <column id="581" parent="569" name="id">
+    <column id="582" parent="571" name="id">
       <AutoIncrement>1</AutoIncrement>
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StoredType>int(11)|0s</StoredType>
     </column>
-    <column id="582" parent="569" name="email">
+    <column id="583" parent="571" name="name">
       <NotNull>1</NotNull>
       <Position>2</Position>
-      <StoredType>varchar(180)|0s</StoredType>
-    </column>
-    <column id="583" parent="569" name="roles">
-      <NotNull>1</NotNull>
-      <Position>3</Position>
-      <StoredType>longtext|0s</StoredType>
-      <CollationName>utf8mb4_bin</CollationName>
-    </column>
-    <column id="584" parent="569" name="password">
-      <NotNull>1</NotNull>
-      <Position>4</Position>
       <StoredType>varchar(255)|0s</StoredType>
     </column>
-    <index id="585" parent="569" name="PRIMARY">
+    <column id="584" parent="571" name="surname">
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <StoredType>varchar(255)|0s</StoredType>
+    </column>
+    <column id="585" parent="571" name="age">
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+      <StoredType>int(11)|0s</StoredType>
+    </column>
+    <column id="586" parent="571" name="current_team">
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+      <StoredType>varchar(255)|0s</StoredType>
+    </column>
+    <column id="587" parent="571" name="goals_scored">
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+      <StoredType>int(11)|0s</StoredType>
+    </column>
+    <column id="588" parent="571" name="cards_received">
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+      <StoredType>int(11)|0s</StoredType>
+    </column>
+    <column id="589" parent="571" name="birth_date">
+      <NotNull>1</NotNull>
+      <Position>8</Position>
+      <StoredType>date|0s</StoredType>
+    </column>
+    <index id="590" parent="571" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="586" parent="569" name="UNIQ_IDENTIFIER_EMAIL">
-      <ColNames>email</ColNames>
-      <Type>btree</Type>
-      <Unique>1</Unique>
-    </index>
-    <key id="587" parent="569" name="PRIMARY">
+    <key id="591" parent="571" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
-    </key>
-    <key id="588" parent="569" name="UNIQ_IDENTIFIER_EMAIL">
-      <UnderlyingIndexName>UNIQ_IDENTIFIER_EMAIL</UnderlyingIndexName>
     </key>
   </database-model>
 </dataSource>

@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7adbfd1c-4e2d-48b7-a48e-2fab3524027e" name="Changes" comment="AP90 y AP91 hechos">
+    <list default="true" id="7adbfd1c-4e2d-48b7-a48e-2fab3524027e" name="Changes" comment="Nuevo Commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bloque3/AP91/Fantasy League API/Actualizar Jugador.bru" beforeDir="false" afterPath="$PROJECT_DIR$/Bloque3/AP91/Fantasy League API/Actualizar Jugador.bru" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bloque3/AP91/Fantasy League API/Crear Jugador.bru" beforeDir="false" afterPath="$PROJECT_DIR$/Bloque3/AP91/Fantasy League API/Crear Jugador.bru" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bloque3/AP91/Fantasy League API/Eliminar jugador.bru" beforeDir="false" afterPath="$PROJECT_DIR$/Bloque3/AP91/Fantasy League API/Eliminar jugador.bru" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bloque3/AP91/Fantasy League API/Mostrar Jugadores.bru" beforeDir="false" afterPath="$PROJECT_DIR$/Bloque3/AP91/Fantasy League API/Mostrar Jugadores.bru" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bloque3/AP91/Fantasy League API/Mostrar jugador id.bru" beforeDir="false" afterPath="$PROJECT_DIR$/Bloque3/AP91/Fantasy League API/Mostrar jugador id.bru" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bloque3/api" beforeDir="false" afterPath="$PROJECT_DIR$/Bloque3/api" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bloque3/api/API/Devolver esudiantes.bru" beforeDir="false" afterPath="$PROJECT_DIR$/Bloque3/api/API/Devolver esudiantes.bru" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bloque3/api/API/crear estudiantes post.bru" beforeDir="false" afterPath="$PROJECT_DIR$/Bloque3/api/API/crear estudiantes post.bru" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +22,8 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Bloque3/AP91" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -56,23 +49,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Docker..docker: Compose Deployment.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/marope01/Desktop/DAWES/Docker DWES&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Docker..docker: Compose Deployment.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/marope01/Desktop/DAWES/Docker DWES",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name=".docker: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
       <deployment type="docker-compose.yml">
@@ -133,6 +126,8 @@
       <workItem from="1768468896526" duration="348000" />
       <workItem from="1768548815971" duration="2295000" />
       <workItem from="1769154505276" duration="40000" />
+      <workItem from="1769426167861" duration="2362000" />
+      <workItem from="1769431931290" duration="237000" />
     </task>
     <task id="LOCAL-00001" summary="Cambiado">
       <option name="closed" value="true" />
@@ -278,13 +273,26 @@
       <option name="project" value="LOCAL" />
       <updated>1769083833546</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Nuevo Commit">
+      <option name="closed" value="true" />
+      <created>1769426343598</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1769426343598</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+      <path value="$PROJECT_DIR$/Bloque3/AP91" />
+      <path value="$PROJECT_DIR$/Bloque3/api" />
+    </ignored-roots>
     <MESSAGE value="Cambiado" />
     <MESSAGE value="subido docker con debug" />
     <MESSAGE value="Symfony" />
@@ -300,6 +308,7 @@
     <MESSAGE value="AP80" />
     <MESSAGE value="AP81 Login y Register" />
     <MESSAGE value="AP90 y AP91 hechos" />
-    <option name="LAST_COMMIT_MESSAGE" value="AP90 y AP91 hechos" />
+    <MESSAGE value="Nuevo Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nuevo Commit" />
   </component>
 </project>
